@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		/*#smk{
+			height: 100px;
+			width: 100%;
+			text-align: center;
+			position: sticky;
+			top:0;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+
+		}*/
+		#fmk{
+			height: 1000px;
+			width: 100%; 
+			text-align: center;
+
+			
+			
+		}
+		.button {
+  background-color: rgb(0, 89, 255); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {border-radius: 12px;}
+
+
+		#umk{
+			height: 1000px;
+			width: 100%;
+			background-color: grey;
+			text-align: center;
+		}
+		#hmk{
+			height: 500px;
+			width: 100%;
+			background-color: orange;
+			text-align: center;
+		}
+		.button1 {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {border-radius: 12px;}
+
+.button2 {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {border-radius: 12px;}
+		#mmk{
+			height: 1000px;
+			width: 100%;
+			/*background-color: white;*/
+			text-align: center;
+		}
+		#kmk{
+			height: 700px;
+			width: 100%;
+			background-color: pink;
+			text-align: center;
+		}
+		a { /*color: white*/; text-decoration: none} 
+		.main_head{
+			font-size: 98px;
+			color: white;
+			margin: 20px 0;
+			font-family: Agency FB;
+		}
+		.second_head{
+			font-size: 20px;
+			color: white;
+			margin: 20px 0;
+		}
+		.third_head{
+			font-size: 60px;
+			color: white;
+			margin: 20px 0;
+			font-family: Agency FB;
+
+		}
+		.fourth_head{
+			font-size: 20px;
+			color: white;
+			margin: 20px 0;
+			font-family: Agency FB;
+
+		}
+		.fifth_head{
+			font-size: 50px;
+			color: white;
+			margin: 20px 0;
+			font-family: Agency FB;	
+		}
+		.sixth_head{
+			font-size: 15px;
+			color: white;
+			margin: 20px 0;
+			font-family: Agency FB;
+		}
+		body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #3fc7b0;
+  color: white;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #3fc7b0;
+  color: white;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+nav{
+ display: flex;
+ color: black;
+ justify-content: center;
+ background-color: rgba(255, 255, 255, 0.87);
+ font-size: 13px;
+ font-weight: 400;
+  position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+ transition: background-color .25s ease-in-out;
+
+ backface-visibility: hidden;
+ z-index: 100;
+}
+ul{
+ list-style: none;
+ display: flex;
+ align-items: center;
+ flex-basis: 45%;
+ justify-content: space-between;
+}
+li:hover{
+ color: #2176ff;
+}
+.cart-icon i{
+ color: black;
+}
+.cart-icon i:hover{
+  color: #fff;
+}
+
+
+
+	</style>
+</head>
+<body style="background-image: url(../html/slider/slider.jpg);">
+
+	<nav style="color: black;">
+		<ul>
+		 <li><a href="home.html">HOME</a></li>
+		 <li><a href="">PROJECTS</a></li>
+		 <li class="logo">
+		  <a href="index.html"><img src="../html/nt-black.png" alt=""></a>
+		 </li>
+		 <li>
+		  <a href="">SHOP</a>
+		 </li>
+		 <li><a href="contact.html"> CONTACT US</a></li>
+		 <li class="cart-icon">
+		  <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+		 </li>
+		</ul>
+	   </nav>
+<div id="fmk" class="fusion-button wrapper fusion-aligncenter">
+
+	<h1 class="main_head"> Lets TECH it!!!</h1>
+	<h4 class="second_head">
+IF LIFE IS BECOMING SMARTER,WHY WON'T YOU?
+	</h4>
+	<button class="button" style="font-size:24px"> <i class="fa fa-play-circle"></i>VIEW OUR WORK </button>
+	
+</div>
+<div id="umk" style="background-image: url(../html/tech.jpg);">
+	<img src="../html/white-head.png" style="float: center;">
+<h1 class="third_head">WHAT WE DO</h1>
+<h4 class="fourth_head">NIGHT OWL TECHNOLOGY PROVIDES IT/SOLUTION RELATED TO SOFTWARE AND HARDWARE ACCROSS NIGERIA</h4>
+<div class="flip-box">
+	<div class="flip-box-inner">
+	  <div class="flip-box-front">
+		<h1>Security<br>Gadgets</h1>
+		<p>We Supply & Install Security Gadgets</p>
+	  </div>
+	  <div class="flip-box-back">
+		<p>We supply & install CCTV surveillance camera to ensure<br> good monitoring of your home and business place</p>
+	  </div>
+	</div>
+  </div>
+</div>
+<div id="hmk" style="background-image: url(../html/apps.jpg);" class="fusion-button wrapper fusion-aligncenter">
+	<img src="../html/white-head.png" style="float: center;">
+	<h1 class="fifth_head">Our Apps</h1>
+	<h4 class="sixth_head">CLICK BELOW TO VIEW OUR APPS CATALOGUE</h4>
+	<button class="button2" style="font-size:24px"> <i class="fa fa-play-circle"></i> OUR PLAY STORE APPS </button>
+	<button class="button1" style="font-size:24px"> <i class="fa fa-play-circle"></i> OUR APPSTORE APPS </button>
+</div>
+<div id="mmk" style="background-image: url(../html/nightowl_head_black.jpg);">
+	
+</div>
+<div id="kmk" style="background-image: url(../html/contact.jpg);">
+
+</div>
+<div id="amk"></div>
+
+</body>
+	</html>
